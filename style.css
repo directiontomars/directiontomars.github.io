@@ -1,0 +1,56 @@
+/* Fichier CSS à personnaliser */
+body{
+  font-family: 'Space Mono';font-size: 20px;
+}
+h1 {
+text-align: center;
+  }
+html{
+  background-color: rgb(196, 196, 196);
+}
+.titre{
+  font-size: 72px; 
+  background: -webkit-linear-gradient(rgb(38, 0, 255), rgb(115, 0, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+.special {
+  padding: 50px;
+  text-align: justify;
+
+  }
+
+#bloc2 {
+  width: 100%;
+  background-color: #292929;
+  color: white;
+  text-align: center;
+  }
+
+#gauche{
+    text-align: left;
+  }
+  #centre{
+    text-align: center;
+  }
+#bloc1 {
+text-align: justify;
+margin: 50px;;
+  }
+
+  #monImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #frite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  h2{
+    text-align: center;
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<!-- Je suis dans un commmentaire -->
+    <head>
+    <!--La partie head n'apparait pas dans la fenetre du navigateur, sauf le titre qui est le nom de l'onglet qui s'ouvre dans le navigateur.
+        Elle contient des infos importantes pour garantir un affichage correct, référencé et stylé -->
+        <meta charset="UTF-8">
+        <title>Bases de lancements</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="earth-1706213_960_720.png">
+        <link href='https://fonts.googleapis.com/css?family=Space Mono' rel='stylesheet'>
+    </head>
+
+    <!--La partie body englobe le contenu textuel structuré 
+        et les liens vers :
+        - soit des éléments multimédia (photo, audio, vidéo)
+        - soit des pages déjà présentes sur le web 
+        - soit d'autres pages que vous créez... -->
+
+    <body onload=showDate();>
+        
+        <div id="bloc2">
+            <div id="gauche">
+               <a href="Starship.html"><img src="LogoStarship.png" width="150" height="105"></a>
+            </div>
+            <div id="frite">
+                <a href="index.html"><img width="250" height="175" src="logomars.PNG"></a>
+           </div>
+       </div>
+       <br>
+       <h2>Infos sur les bases de lancements.</h2>
+       <br>
+       <div id="bloc1"> 
+       <script src="script.js"></script>
+        <label>Paris : </label>
+        <span id='horlogeParis' ></span>
+        <br>
+        <label>Kourou : </label>
+        <span id='horlogeKourou' ></span>
+        <br>
+        <label>Cape Canaveral : </label>
+        <span id='horlogeCap' ></span>
+        <br>
+        <label>Baïkonour : </label>
+        <span id='horlogeB' ></span>
+       
+
+        <p>Sélectionner une base spatiale pour obtenir des informations :</p>
+        <select onchange="base(this.value)">
+            <option value="rien" selected></option>
+            <option value="Kourou">Kourou</option>
+            <option value="CapeCanaveral">Cape Canaveral</option>
+            <option value="Baïkonour">Baïkonour</option>
+        </select>
+       </div>
+        <br/>
+        
+        <div id="infoimgb"></div>
+        <br>
+        <div id="infoBase"></div>
+        
+    </body>
+</html>
+
